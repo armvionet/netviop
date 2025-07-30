@@ -1,7 +1,6 @@
 #!/bin/bash
 TMP_DIR=/data/data/com.termux/files/usr/tmp
-FILE_NAME=install_net # Usamos "install_net" para que coincida con el nombre del archivo en la URL
-
+FILE_NAME=install_net
 echo "Descargando binario..."
 # Descarga el binario al directorio temporal
 if curl -sSL "https://github.com/armvionet/netviop/raw/refs/heads/main/install_net" -o "$TMP_DIR/$FILE_NAME"; then
@@ -16,3 +15,4 @@ else
     echo "Error al descargar el binario."
     exit 1
 fi
+ 
