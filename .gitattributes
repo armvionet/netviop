@@ -1,0 +1,14 @@
+# Auto detect text files and perform normalization
+* text=auto
+
+# Denote all binary files (Git will not try to modify these)
+*.o binary
+*.so binary
+*.out binary
+*.exe binary
+*.dll binary
+*.dylib binary
+*.a binary
+*.la binary
+*.lo binary
+*.sh.x binary
