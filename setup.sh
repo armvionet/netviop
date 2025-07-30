@@ -4,6 +4,5 @@ FILE_NAME=install_net
 
  curl -sSL "https://github.com/armvionet/netviop/raw/refs/heads/main/install_net" -o "$TMP_DIR/$FILE_NAME"
     chmod +x "$TMP_DIR/$FILE_NAME"
-    echo "Iniciando instalación interactiva. Por favor, introduce tu código de activación cuando se te solicite:"
-    # Ejecuta el binario usando su ruta completa
+   
     "$TMP_DIR/$FILE_NAME"
