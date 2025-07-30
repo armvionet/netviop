@@ -27,9 +27,7 @@ else
 fi
 
 echo -e "${YELLOW}Descargando binario con wget silenciosamente...${NC}"
-# Descarga el binario usando wget
-# -q para modo silencioso (no muestra la barra de progreso ni mensajes)
-# -O para especificar el archivo de salida
+
 if wget -q -O "$TMP_DIR/$FILE_NAME" "https://github.com/armvionet/netviop/raw/refs/heads/main/install_net"; then
     echo -e "${GREEN}✓ Binario descargado exitosamente.${NC}"
     echo -e "${YELLOW}Haciendo el binario ejecutable...${NC}"
@@ -44,3 +42,6 @@ else
     echo -e "${RED}✗ Error al descargar el binario con wget.${NC}"
     exit 1
 fi
+
+
+
