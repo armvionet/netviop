@@ -1,25 +1,2 @@
 # Archivos binarios y compilados (generado por
-# Archivos binarios y compilados
-**/bin/
-**/*.o
-**/*.so
-**/*.out
-**/*.exe
-**/*.dll
-**/*.dylib
-**/*.a
-**/*.la
-**/*.lo
-# Scripts compilados con SHC
-**/*.sh.x
-# Binarios comunes específicos
-dropbear
-squid
-ssl
-vssh
-menu
-menu_in
-verifica
-instalar
-updatege
-ws-manager
+# Archivos binarios y c
