@@ -1,0 +1,28 @@
+# Dependencias
+/vendor/
+/node_modules/
+/bower_components/
+
+# Archivos generados
+/dist/
+/build/
+/public/storage
+/storage/*.key
+
+# Archivos de caché
+/.cache/
+/.tmp/
+/.sass-cache/
+
+# Archivos de entorno y configuración
+/.env
+/.env.local
+/config.local.php
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+/logs/
+*.log
